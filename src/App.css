@@ -2,18 +2,25 @@
   text-align: center;
 }
 body {
-  background-color: rgba(238, 70, 227, 0.403);
+  background: linear-gradient(rgb(118, 6, 6), rgba(218, 28, 28, 0.543));
+  padding-top: 2rem;
 
 }
  .sol{
-  width: 200px; height: 280px;
+  width: 200px; height: 300px;
   border-radius: 20px ;
   text-align: center;
-
+margin:auto ;
+margin-top: 1rem;
 
  }
  .card{
 
-  width: 330px;
-
+  width: 430px;
+  margin: auto;
  }
+.fst-italic{
+
+  color: rgba(166, 6, 6, 0.773);
+}
+  
