@@ -7,8 +7,8 @@ body {
 
 }
  .sol{
-  width: 200px; height: 300px;
-  border-radius: 20px ;
+  width: 270px; height: 400px;
+  border-radius: 10px ;
   text-align: center;
 margin:auto ;
 margin-top: 1rem;
@@ -16,7 +16,7 @@ margin-top: 1rem;
  }
  .card{
 
-  width: 430px;
+  width: 530px;
   margin: auto;
  }
 .fst-italic{
@@ -24,3 +24,19 @@ margin-top: 1rem;
   color: rgba(166, 6, 6, 0.773);
 }
   
+.carousel, .carousel> .carousel-inner> .carousel-item> img{
+
+  width: 500px;
+  height: 630px;
+  margin: auto;
+  border: solid 20px black;
+}
+#retrato{
+
+  text-align: center;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+

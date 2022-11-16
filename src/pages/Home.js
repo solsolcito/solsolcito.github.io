@@ -15,7 +15,7 @@ function Home (){
           </div>
           <ul className="list-group list-group-flush">
             <li className="list-group-item">
-             <a href=''>Mi Curriculum</a>
+             <Link to='/Cv'>Mi Curriculum</Link>
             </li>
             <li className="list-group-item">
              <Link to='/retratos'> Mis Retratos</Link>

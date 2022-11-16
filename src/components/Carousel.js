@@ -1,5 +1,8 @@
 function Carousel() {
     return (
+        <>
+    <h1 id="retrato">Retratos Sol</h1>
+    
         <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active">
@@ -29,6 +32,8 @@ function Carousel() {
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="visually-hidden">Next</span>
             </button>
-        </div>)
+        </div>
+        </>
+        )
 }
 export default Carousel 
