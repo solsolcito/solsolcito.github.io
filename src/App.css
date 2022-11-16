@@ -1,42 +1,53 @@
 .App {
   text-align: center;
 }
+
 body {
-  background: linear-gradient(rgb(118, 6, 6), rgba(218, 28, 28, 0.543));
+  background: linear-gradient(rgb(248, 95, 161), rgba(242, 143, 186, 0.543));
   padding-top: 2rem;
 
 }
- .sol{
-  width: 270px; height: 400px;
-  border-radius: 10px ;
-  text-align: center;
-margin:auto ;
-margin-top: 1rem;
 
- }
- .card{
+.sol {
+  width: 250px;
+  height: 400px;
+  border: solid 20px rgb(250, 192, 202);
+  text-align: center;
+  margin: auto;
+  margin-top: 1rem;
+
+}
+
+.card {
 
   width: 530px;
   margin: auto;
- }
-.fst-italic{
-
-  color: rgba(166, 6, 6, 0.773);
 }
-  
-.carousel, .carousel> .carousel-inner> .carousel-item> img{
+
+.fst-italic {
+
+  color: rgba(237, 35, 210, 0.617);
+}
+
+.carousel,
+.carousel>.carousel-inner>.carousel-item>img {
 
   width: 500px;
   height: 630px;
   margin: auto;
-  border: solid 20px black;
+  border: solid 20px white;
 }
-#retrato{
+
+#retrato {
 
   text-align: center;
   color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
-
+.padre {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
