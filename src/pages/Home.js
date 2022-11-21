@@ -21,7 +21,7 @@ function Home (){
              <Link to='/retratos'> Mis Retratos</Link>
               </li>
             <li className="list-group-item">
-              <a href=''>Sobre Mi</a>
+              <Link to='/Sol'>Sobre Mi</Link>
               </li>
           </ul>
         </div>
