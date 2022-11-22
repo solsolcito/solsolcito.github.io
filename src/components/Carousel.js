@@ -1,28 +1,21 @@
-function Carousel() {
+function Carousel(props) {
     return (
         <>
-            <h1 id="retrato">Retratos Sol</h1>
+            
 
             <div id="carouselExampleControls" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src="foto.jpg" className="img-fluid" alt />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="foto1.jpg" className="img-fluid" alt />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="foto2.jpg" className="img-fluid" alt />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="foto3.jpg" className="img-fluid" alt />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="foto4.jpg" className="img-fluid" alt />
-                    </div>
-                    <div className="carousel-item">
-                        <img src="foto5.jpg" className="img-fluid" alt />
-                    </div>
+
+                    {
+                        props.images.map((img, i) => {
+                            const classes = i == 0 ? "carousel-item active" : "carousel-item"
+                            return (
+                                <div className={classes}>
+                                    <img src={img} className="img-fluid" alt />
+                                </div>
+                            )
+                        })
+                    }
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>

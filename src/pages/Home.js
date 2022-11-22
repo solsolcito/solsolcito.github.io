@@ -1,4 +1,4 @@
-import Carousel from '../components/Carousel';
+
 import { Link } from 'react-router-dom'
 
 function Home (){
@@ -18,7 +18,7 @@ function Home (){
              <Link to='/Cv'>Mi Curriculum</Link>
             </li>
             <li className="list-group-item">
-             <Link to='/retratos'> Mis Retratos</Link>
+             <Link to='/Retratos'> Mis Retratos</Link>
               </li>
             <li className="list-group-item">
               <Link to='/Sol'>Sobre Mi</Link>

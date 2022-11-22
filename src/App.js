@@ -6,9 +6,9 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home";
 import './App.css';
-import Carousel from "./components/Carousel";
 import Cv from "./pages/Cv";
 import Sol from "./pages/Sol";
+import Retratos from "./pages/Retratos";
 function App() {
   return (
     <Router>
@@ -25,7 +25,7 @@ function App() {
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/retratos" element={<Carousel />} />
+          <Route path="/Retratos" element={<Retratos />} />
           <Route path="/Cv" element={<Cv />} />
           <Route path="/Sol" element={<Sol />} />
         </Routes>

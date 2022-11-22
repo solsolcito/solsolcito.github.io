@@ -1,16 +1,7 @@
-function Sol (){
-    return(
-<div className="sobremi">
-     <h1>
-        Sobre Mi 
-     </h1>
-
-
-
-
-</div>
-
-
+import Carousel from "../components/Carousel"
+function Sol() {
+    return (
+    <Carousel images={[]}/>
 
     )
 }
