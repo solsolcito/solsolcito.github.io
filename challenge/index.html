@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="main.js"></script>
+    <title>encriptador de texto sol </title>
+</head>
+<body>
+    <div class="cuadro">
+        <div class="foto">
+           <img class="logo" src="fotoalura.png">
+           <h1>Encriptador y Desencriptador 
+             </h1>
+
+        </div>
+        <div class="izquierda">
+           <input class="texto-input" id="inputtexto" type="texto" placeholder="ingrese su texto aqui ">
+
+        </div>
+        <div class="derecha">
+            <img  class=" nino" id="imgDer" src="nino.png">
+            <h1 id="texto">Ningún mensaje fue encontardo</h1>
+            <textarea  id="texto2" name="" id="" cols="30" rows="10">ingresa el texto que deseas encriptar y desencriptar</textarea>
+            <button id="copiar" type="button" name="button" onclick="copy()">Copiar</button>
+        </div>
+        <div class="iz-button">
+            <p>solo letras minusculas y sin acentos</p>
+            <button type="button" id="btn-encristar" onclick=" encrispar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="desencrispar()">Desencriptar</button>
+        </div>
+
+      
+    </div>
+    
+</body>
+</html>
